@@ -21,7 +21,7 @@ const launch = {
 };
 
 //saving first launch data
-saveLaunch(launch);
+// saveLaunch(launch);
 
 //checks if the launch id exists
 async function existsLaunchById(launchId) {

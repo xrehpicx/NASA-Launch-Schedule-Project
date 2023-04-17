@@ -9,9 +9,7 @@ const launchesRouter = require("./router/launches/launches.router");
 
 //cross origin access
 app.use(
-  cors({
-    options: "http://localhost:3000",
-  })
+  cors()
 );
 
 // app.use(cors());
