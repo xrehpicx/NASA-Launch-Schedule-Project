@@ -1,4 +1,4 @@
-const API_URL = window.location.href; //api key
+const API_URL = window.location.origin; //api key
 
 // Load planets and return as JSON.
 async function httpGetPlanets() {
